@@ -7,6 +7,6 @@
 int main(int argc, char **argv) {
   rebuild(argc, argv);
   std_compile("punto_1", "-lm");
-  cmd("time ./punto_1");
+  cmd("./punto_1");
   return 0;
 }
